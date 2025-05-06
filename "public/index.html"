@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shakta Path</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #fff8eb;
+    }
+    .preview-banner {
+      background-color: #f59e0b;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 9999;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px 20px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #92400e;
+    }
+    .nav {
+      display: flex;
+      gap: 20px;
+    }
+    .nav a {
+      color: #92400e;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .hero-title {
+      font-family: Georgia, serif;
+      font-style: italic;
+      font-size: 36px;
+      color: #92400e;
+      margin-bottom: 20px;
+    }
+    .hero-description {
+      font-size: 18px;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #d97706;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .card-symbol {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #92400e;
+      margin-bottom: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #92400e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">Preview Mode Active</div>
+  
+  <div class="container">
+    <header class="header">
+      <div class="logo">Shakta Path</div>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Samadhi Course</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero-title">Sri Vidya: The Sacred Geometry of Consciousness</h1>
+      <p class="hero-description">
+        Discover the ancient tantric tradition that reveals the map of cosmic consciousness through sacred
+        geometry, mantra, and ritual.
+      </p>
+      <a href="#" class="button">Learn More</a>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <div class="card-symbol">श्री</div>
+        <h2 class="card-title">Sri Vidya</h2>
+        <p>Sacred geometry and mantra practices that align your inner energies with cosmic forces.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-symbol">ॐ</div>
+        <h2 class="card-title">Vedic Astrology</h2>
+        <p>Cosmic wisdom for understanding your spiritual blueprint and optimal timing.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-symbol">स</div>
+        <h2 class="card-title">Samadhi</h2>
+        <p>Advanced meditation techniques for experiencing higher states of consciousness.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    &copy; 2023 Shakta Path. All rights reserved.
+  </footer>
+</body>
+</html>
